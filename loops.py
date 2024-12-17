@@ -29,7 +29,7 @@ dict2={
   'key4':'twre'
 }
 
-print({**dict1,**dict2})'''
+print({**dict1,**dict2})
 
 list=[]
 while(True):
@@ -41,4 +41,8 @@ while(True):
 print(list)
 
 even=[even for even in list if(even%2==0)]
-print(even)
+print(even)'''
+
+
+user_input=input('enter any string >> ')
+print(user_input[::-1])
