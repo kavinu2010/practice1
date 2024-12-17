@@ -41,8 +41,9 @@ while(True):
 print(list)
 
 even=[even for even in list if(even%2==0)]
-print(even)'''
+print(even)
 
 
 user_input=input('enter any string >> ')
-print(user_input[::-1])
+print(user_input[::-1])'''
+
